@@ -1,4 +1,4 @@
-![cabecera](imagenesReadme/cabecera.PNG)
+![cabecera](assets__readme/cabecera.PNG)
 
 
 <hr style="height: 5px; background: #24292F;">
@@ -16,19 +16,7 @@
 
 # 1. Introducción
 
-Este repositorio contiene la estructura básica que vamos a implementar en los siguientes proyectos. A fin de evitar el acoplamiento de clases:
 
-> [El acoplamiento] Es el nivel de dependencia que tiene una clase de los detalles de implementación de otra. Así, cuanto más necesite saber una clase sobre cómo hace otra las cosas internamente más acopladas estarán. ([misapuntesdeprogramacion.com](https://misapuntesdeprogramacion.wordpress.com/2013/01/16/acoplamiento-cohesion-y-encapsulacion/))
-
-En consecuencia, nuestros proyectos presentan las siguientes novedades:
-
-- En `` Source Packages`` tenemos los paquetes: `` beans`` , `` controllers`` , `` daofactory``  y `` dao``.
-
-![source_packages](assets__readme\sourcepackages.PNG)
-
-- Contamos con una base de datos relacional gestionada mediante MySQL.  
-
-![modelo](assets__readme\modeloAlumnosEquipos.png)
 
 <hr style="height: 5px; background: #24292F;"><a name="herramientas"></a>
 
