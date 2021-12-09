@@ -37,8 +37,6 @@ public class Paises extends HttpServlet {
         Locale[] collLocale = SimpleDateFormat.getAvailableLocales();
         for (Locale element : collLocale) {
             collP.put(element.getDisplayCountry(), element);
-            if(element.toString().equals("hi_IN")){
-                System.out.println(element.getDisplayCountry());}
         }
         request.setAttribute("paises", collP);
         request.getRequestDispatcher("index.jsp").forward(request, response);
